@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "=====SERVER HEALTH CHECKER ====="
+echo "=====SERVER HEALTH CHECKER====="
 
 server_name=$(hostname)
 current_time=$(date)
