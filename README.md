@@ -15,6 +15,6 @@ Designed with simplicity in mind, this tool requires no additional dependencies 
 * Easy to customize and extend
 * Compatible with most Linux distributions
 
-##. 🎯 Why This Project?
+##.. 🎯 Why This Project?
 
 Server Health Checker was created to simplify routine server monitoring by providing the most important system statistics in a single, easy-to-understand report. Instead of running multiple Linux commands individually, this script consolidates key performance metrics into one convenient utility, making it useful for both learning Linux system administration and performing quick health checks on production or development servers.
