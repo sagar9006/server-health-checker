@@ -5,7 +5,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                echo 'Building Server Health Checker...'
+                sh 'ls -l day5_health_checker.sh'
             }
         }
 
