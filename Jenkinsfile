@@ -26,6 +26,7 @@ pipeline {
     }
         post {
             success {
+                  archiveArtifacts artifacts: 'health_report.txt', fingerprint: true
                   echo 'Pipeline Completed Successfully!'
 
             }
