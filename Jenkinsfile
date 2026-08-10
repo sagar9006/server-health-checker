@@ -19,7 +19,6 @@ pipeline {
         stage('Run Health Checker') {
             steps {
                 sh 'bash day5_health_checker.sh'
-                sh 'exit 1'
 
             }
         }
