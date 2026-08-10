@@ -16,13 +16,15 @@ pipeline {
             }
         }
 
-        stage('Run Health Checker') {
-            steps {
-                sh 'bash day5_health_checker.sh'
-                sh 'ls -l health_checker.txt'
-
-            }
-        }
+       stage('Run Health Checker') {
+    steps {
+        sh '''
+            bash day5_health_checker.sh > health_report.txt
+            echo "Script exit code: $?"
+            ls -l health_report.txt
+        '''
+    }
+       }
 
     }
         post {
