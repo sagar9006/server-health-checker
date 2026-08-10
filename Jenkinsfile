@@ -5,6 +5,7 @@ pipeline {
 
         stage('Build') {
             steps {
+                sh 'chmod +x day5_health_checker.sh'
                 sh 'ls -l day5_health_checker.sh'
             }
         }
