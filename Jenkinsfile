@@ -24,14 +24,16 @@ pipeline {
         }
 
     }
-        post {
-    success {
-        echo 'Pipeline completed successfully!'
-    }
+        post{
+            Sucess{
+                  echo 'Pipeline Completed Successfully!'
 
-    failure {
-        echo 'Pipeline failed!'
-    }
-        }
+                      }
+            Failure {
+                   echo 'Pipeline Failed!'
+
+                     }
+
+            }
 
 }
