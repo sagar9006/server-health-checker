@@ -12,13 +12,14 @@ pipeline {
 
         stage('Test') {
             steps {
-               sh 'bash day5_health_checker.sh'
+               sh 'bash day5_health_checker.sh > health_report.txt'
             }
         }
 
         stage('Run Health Checker') {
             steps {
                 sh 'bash day5_health_checker.sh'
+                sh 'ls -l health_checker.txt'
 
             }
         }
