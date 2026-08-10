@@ -24,8 +24,8 @@ pipeline {
         }
 
     }
-        post{
-            Sucess{
+        post {
+            Success{
                   echo 'Pipeline Completed Successfully!'
 
                       }
