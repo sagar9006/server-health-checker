@@ -25,15 +25,15 @@ pipeline {
 
     }
         post {
-            Success{
+            Success {
                   echo 'Pipeline Completed Successfully!'
 
-                      }
+            }
             Failure {
                    echo 'Pipeline Failed!'
 
-                     }
-
             }
+
+        }
 
 }
