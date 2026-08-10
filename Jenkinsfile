@@ -12,7 +12,7 @@ pipeline {
 
         stage('Test') {
             steps {
-               sh 'bash_day5_health_checker.sh'
+               sh 'bash day5_health_checker.sh'
             }
         }
 
