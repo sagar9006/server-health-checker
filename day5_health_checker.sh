@@ -58,7 +58,7 @@ if [ "$memory_usage" -gt 80 ]
 then
    echo "WARNING: Memory Usage is above 80%"
 
-echo
+else
 
    echo "Memory Usage id Normal"
 fi
