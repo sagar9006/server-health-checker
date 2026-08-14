@@ -19,10 +19,6 @@ echo ""
 echo "=====DISK DETAILS ====="
 df -h /
 
-echo "===== SYSTEM UPTIME ====="
-uptime -p
-
-
 echo ""
 
 
