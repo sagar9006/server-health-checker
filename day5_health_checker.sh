@@ -7,7 +7,7 @@ current_time=$(date)
 uptime_info=$(uptime -p)
 
 echo "Server Name: $server_name"
-echo""" "Current Time: $current_time"
+echo "Current Time: $current_time"
 echo "Uptime info: $uptime_info"
 
 
